@@ -5,7 +5,7 @@
   var d = document, app = d.getElementById('pp-app');
   if (!app) return;
   var LANG = (window.YM && window.YM.lang) || 'en';
-  var ROOT = (window.YM && window.YM.root !== undefined) ? window.YM.root : '/';   /* a relative root is used only by the static preview */
+  var ROOT = (window.YM && window.YM.root !== undefined) ? window.YM.root : '/site-v.1/';   /* a relative root is used only by the static preview */
   var IDX = (window.YM && window.YM.idx) || '';
   var T = function (k) { return window.YM_T('passport.' + k, k); };
   var q = new URLSearchParams(location.search);
