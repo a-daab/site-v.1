@@ -1,0 +1,40 @@
+{
+ "_doc": "Measured once, reused until something changes (Specification §5.2 'standard' data class). The explorer shows when each was last checked.",
+ "last_checked": null,
+ "items": [
+  {
+   "label": "What it is",
+   "value": "A yoga mat towel/cover, placed directly on top of a conventional yoga mat. Not intended to be used as a standalone yoga mat."
+  },
+  {
+   "label": "Construction",
+   "value": "Face: hemp warp with weft strips cut from reclaimed post-consumer sari fabric. Backing: handwoven hemp cloth, no artificial dyes. Bound edge with knotted fringe at both short ends. Natural fiber with reclaimed materials."
+  },
+  {
+   "label": "Loom type",
+   "value": "Traditional handloom, no electricity (weaving stages). Sewing during finishing may use electricity."
+  },
+  {
+   "label": "Dimensions",
+   "value": "68 in (L) × 24 in (W) × 3 mm  ·  173 × 61 cm"
+  },
+  {
+   "label": "Primary textile inputs",
+   "value": "Natural hemp yarn about 650 g; reclaimed sari fabric about 484 g; combined about 1,134 g (about 61.5% hemp / 38.5% reclaimed sari by weight — percentages of the two principal inputs, not of the finished product)."
+  },
+  {
+   "label": "Finished weight",
+   "value": null,
+   "ph": "ADD — remains to be confirmed"
+  },
+  {
+   "label": "Care",
+   "value": "Gentle machine cycle and air-dry; hand-washing recommended for longer-lasting care."
+  },
+  {
+   "label": "Packaging specification",
+   "value": null,
+   "ph": "ADD PACKAGING SPECIFICATION"
+  }
+ ]
+}

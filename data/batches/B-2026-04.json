@@ -1,0 +1,183 @@
+{
+ "_doc": "Batch record. One file per batch in /data/batches/ (Specification §5.2). null = not yet entered (shows as [ADD ...]). Strings beginning with '[' also render as placeholders. A value may be {\"v\":\"..\",\"estimate\":true,\"method\":\"..\"} to label an estimate and say how it was arrived at. Per-batch figures are labeled as averages when divided across pieces. Actor IDs are pseudonymous, never a legal name; locations are at a safe granularity, never an artisan's home.",
+ "batch_id": "B-2026-04",
+ "product_id": "YOGAMATY™",
+ "status": "template",
+ "opened": null,
+ "closed": null,
+ "published": null,
+ "pieces": {
+  "count": null,
+  "first_serial": "0001",
+  "last_serial": null
+ },
+ "entered_by": null,
+ "entered_on": null,
+ "verified_by": null,
+ "verification_note": null,
+ "headcount": {
+  "artisans": null,
+  "withheld": false,
+  "withheld_reason": null
+ },
+ "stages": {
+  "A1": {
+   "grower": null,
+   "location": null,
+   "season": null,
+   "inputs": null,
+   "water": null
+  },
+  "A2": {
+   "date": null,
+   "quantity_kg": null,
+   "workers": null,
+   "payment": null
+  },
+  "A3": {
+   "water_source": null,
+   "duration": null,
+   "volume": null
+  },
+  "A4": {
+   "worker": null,
+   "hours": null,
+   "payment": null
+  },
+  "A5": {
+   "worker": null,
+   "hours": null,
+   "yield": null,
+   "payment": null
+  },
+  "A6": {
+   "location": null,
+   "duration": null
+  },
+  "A7": {
+   "worker": null,
+   "hours": null,
+   "energy_kwh": null
+  },
+  "B1": {
+   "earliest_point": null,
+   "original_history": "Unknown where it is unknown"
+  },
+  "B2": {
+   "source": null,
+   "quantity_kg": null,
+   "date": null,
+   "payment": null
+  },
+  "B3": {
+   "worker": null,
+   "hours": null,
+   "rejected": null
+  },
+  "B4": {
+   "worker": null,
+   "hours": null
+  },
+  "B5": {
+   "worker": null,
+   "hours": null,
+   "method": null
+  },
+  "B6": {
+   "worker": null,
+   "hours": null,
+   "energy_kwh": null
+  },
+  "C1": {
+   "kit_contents": null,
+   "artisan": null,
+   "delivery": null
+  },
+  "C2": {
+   "artisan": null,
+   "hours": null
+  },
+  "C3": {
+   "artisan": null,
+   "hours": null,
+   "note": "Traditional handloom, at home"
+  },
+  "C4": {
+   "artisan": null,
+   "hours": null
+  },
+  "C5": {
+   "water_use": null,
+   "duration": null
+  },
+  "C6": {
+   "date": null
+  },
+  "D1": {
+   "inspector": null,
+   "hours": null
+  },
+  "D2": {
+   "worker": null,
+   "hours": null,
+   "energy_kwh": null,
+   "note": "Sewing may use electricity"
+  },
+  "D3": {
+   "inspector": null,
+   "date": null,
+   "serial": null,
+   "batch_id": null
+  },
+  "D4": {
+   "materials": null,
+   "grams": null,
+   "recyclable": null
+  },
+  "E1": {
+   "verified_by": null,
+   "date": null
+  },
+  "E2": {
+   "shipment": null,
+   "carrier": null,
+   "date": null
+  },
+  "E3": {
+   "entry_date": null,
+   "port": null,
+   "duty_paid": null
+  },
+  "E4": {
+   "received_by": null,
+   "date": null,
+   "count": null,
+   "condition": null
+  },
+  "E5": {}
+ },
+ "wage": {
+  "npr_per_hour": null,
+  "benchmark_name": null,
+  "benchmark_value_npr": null,
+  "benchmark_source": null,
+  "benchmark_date": null,
+  "percent_of_benchmark": null,
+  "how_set": null,
+  "verified_by": null
+ },
+ "metrics": {
+  "recycled_content_pct": null,
+  "electricity_kwh_per_piece": null,
+  "water_l_per_piece": null,
+  "packaging_g_per_piece": null,
+  "packaging_materials": null,
+  "packaging_recyclable_or_compostable": null
+ },
+ "piece_records": {
+  "0137": {
+   "assembled": null,
+   "note": null
+  }
+ }
+}

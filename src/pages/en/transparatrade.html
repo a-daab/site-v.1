@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+{% from "macros.html" import actions, whitepaper_block with context %}
+{% set path = "transparatrade" %}
+{% set title = "TransparaTrade™" %}
+{% set description = "TransparaTrade™ is a survivor-led initiative to build a secure, immutable, open-source programming language for supply chain transparency labeling. YOGAMATY™ is its first pilot." %}
+{% block main %}
+<section class="sec sec--orange sec--head" style="padding-top:calc(var(--header-h) + clamp(48px,8vw,110px))">
+  <div class="wrap">
+    <span class="eyebrow">{{ t('tt.eyebrow') }}</span>
+    <h1 class="display">TransparaTrade™.</h1>
+    <p class="statement">Document the steps. Protect the person.</p>
+    <p class="lede" style="margin-top:1rem">TransparaTrade is the proposed technical system connecting supply-chain documentation with transparency labeling.</p>
+    <div class="btn-row">
+      <a class="btn btn--lg" href="{{ url('become-a-technical-ally') }}">{{ t('nav.ally') }}</a>
+      <a class="btn btn--ghost btn--lg" href="{{ url('end-modern-slavery-now') }}#sign">{{ t('actions.demand_btn') }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--white" id="mission">
+  <div class="wrap wrap--narrow" style="margin-left:0">
+    <span class="eyebrow">Why transparency</span>
+    <h2 class="h1">Transparency is the end of invisibility as a source of margin.</h2>
+    <p>Consumers are often provided information about what a product contains and how to care for it. Yet they may know very little about the people whose labor created the product.</p>
+    <p>TransparaTrade seeks to make the value of each contribution and the fairness of the exchange visible. Conscious consumption determines where the money goes. Conscious capitalism determines how the money is used.</p>
+    <p class="statement" style="color:var(--orange);margin-top:1.6em">Document the steps. Protect the person.</p>
+  </div>
+</section>
+
+<section class="sec sec--orange" id="system">
+  <div class="wrap grid grid--split" style="align-items:start">
+    <div>
+      <span class="eyebrow">The system</span>
+      <h2 class="h1">A common technical language for supply chains.</h2>
+      <p class="statement" style="font-size:clamp(1.3rem,1rem + 1vw,1.7rem);max-width:none">TransparaTrade is the proposed technical system connecting supply-chain documentation with transparency labeling. Its guiding principle is: <strong style="font-weight:400">Document the steps. Protect the person.</strong></p>
+    </div>
+    <div>
+      <p>The intention is to develop a common technical language for documenting the steps that take place throughout global supply chains. These events may include agricultural production, material collection, processing, labor contributions, manufacturing, payments, transportation, and delivery. The objective is to create records that can be verified while protecting the people whose work is being documented.</p>
+      <p>TransparaTrade is intended to support the End Modern Slavery Now! movement’s objective of mandatory supply-chain transparency labeling. YOGAMATY will be the initial pilot for developing and testing this approach.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--white" id="pillars">
+  <div class="wrap">
+    <span class="eyebrow">The three pillars</span>
+    <h2 class="h1">Movement. System. Agreement.</h2>
+    <div class="pillars" role="group" aria-label="Diagram: the three pillars of TransparaTrade">
+      <div class="pillar"><span class="eyebrow">Movement</span><h3>End Modern Slavery Now!</h3><p>The movement advocates mandatory supply-chain transparency labeling and greater accountability for labor within global commerce.</p></div>
+      <div class="pillar"><span class="eyebrow">System</span><h3>TransparaTrade™</h3><p>The system seeks to develop the secure, immutable, open-source technical language and documentation framework necessary to support meaningful transparency labeling.</p></div>
+      <div class="pillar"><span class="eyebrow">Agreement</span><h3>Fair Exchange and Accountability</h3><p>The agreement component seeks to establish shared principles of truthful documentation, responsibility, and accountability for supply-chain claims and economic exchanges.</p></div>
+    </div>
+    <p style="margin-top:1.6rem">Together, the three pillars connect public advocacy, technical infrastructure, and accountable participation.</p>
+  </div>
+</section>
+
+<section class="sec sec--white" id="language" style="padding-top:0">
+  <div class="wrap wrap--narrow" style="margin-left:0;max-width:820px">
+    <span class="eyebrow">The technology</span>
+    <h2 class="h1">A secure, immutable, open-source programming language.</h2>
+    <p>A central ambition of TransparaTrade is to develop a secure, immutable, open-source programming language for supply-chain documentation and labeling. The idea is to establish a common technical language that can describe and verify supply-chain events across different products, industries, and countries. The language should be capable of representing material origins, production events, labor contributions, transfers, payments, and verification status.</p>
+    <p>The technical architecture is still to be developed. The Founding Technical Allies will help determine whether the appropriate implementation is a dedicated domain-specific programming language, a formal data language with validation rules, or a combination of open standards and software components. The objective of immutability is to protect the integrity of documented steps. A record should not be capable of being silently rewritten without detection. At the same time, the system must allow legitimate corrections, dispute resolution, and protection of personal information. Potential technical approaches include cryptographic signatures, append-only event histories, and tamper-evident verification.</p>
+    <p><strong>These are development objectives rather than claims that the system has already been built.</strong></p>
+  </div>
+</section>
+
+<section class="sec sec--white" id="labels" style="padding-top:0">
+  <div class="wrap">
+    <span class="eyebrow">Proposed labeling</span>
+    <h2 class="h1">A Green, Yellow and Red transparency concept.</h2>
+    <p>The project has explored a Green, Yellow, and Red transparency labeling concept.</p>
+    <div class="labels-concept">
+      <span class="tag">proposed concept</span>
+      <div class="lab-grid">
+        <div class="lab lab--g"><h3>Green</h3><p>Verified transparency within a defined and documented supply-chain scope.</p></div>
+        <div class="lab lab--y"><h3>Yellow</h3><p>Partial transparency where some stages have been documented but important information remains incomplete or unverified.</p></div>
+        <div class="lab lab--r"><h3>Red</h3><p>Insufficient evidence to support the relevant transparency claim. Red should not automatically be interpreted as proof of forced labor.</p></div>
+      </div>
+    </div>
+    <p style="margin-top:1.4rem;max-width:70ch">These labels are proposed concepts. They are not yet an operational certification system. Before implementation, the project must establish verification standards, evidence requirements, governance, correction procedures, and appropriate accountability. YOGAMATY is not publicly represented as having achieved a verified Green Label until the necessary criteria and verification processes exist.</p>
+  </div>
+</section>
+
+<section class="sec sec--orange" id="pilot">
+  <div class="wrap grid grid--split" style="align-items:start">
+    <div>
+      <span class="eyebrow">The first pilot</span>
+      <h2 class="h1">YOGAMATY™ as the first TransparaTrade pilot.</h2>
+      <p>YOGAMATY is intended to provide a real-world product through which TransparaTrade can be developed. The product offers several important opportunities for testing. It includes agricultural sourcing through hemp. It includes material recovery through reclaimed sari textiles. It includes traditional handloom production. It includes individual artisan contributions. It includes material preparation, transportation, quality control, packaging, and international delivery. It also includes consumer-funded production and the economic exchanges associated with that process.</p>
+    </div>
+    <div>
+      <p>The intention is to document these events through a common technical framework. As the pilot develops, the product may be connected to a QR code or other identifier allowing the consumer to access appropriate verified information. The long-term objective is to develop a system that could be adapted to other products and supply chains.</p>
+      <div class="note-box" style="background:rgba(255,255,255,.12);border-left-color:#fff"><p><strong>Honesty about today’s records.</strong> Current records are entered by hand, and that is exactly the weakness TransparaTrade exists to fix: when companies enter their own data by hand, those not committed to ethics can enter false data. See <a href="{{ url('supply-chain') }}">The Supply Chain</a>.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--white" id="whitepaper">
+  <div class="wrap">
+    {{ whitepaper_block() }}
+    <p style="margin-top:1.6rem"><a href="{{ url('whitepaper') }}">Whitepaper page →</a></p>
+  </div>
+</section>
+
+<section class="sec sec--orange sec--tight" id="build">
+  <div class="wrap wrap--narrow" style="margin-left:0;max-width:880px">
+    <span class="eyebrow">BUILD</span>
+    <h2 class="h1">Help build the language.</h2>
+    <p class="statement">Apply to become a Founding Technical Ally and help develop the secure, immutable, open-source TransparaTrade programming language.</p>
+    <div class="btn-row"><a class="btn btn--lg" href="{{ url('become-a-technical-ally') }}">{{ t('nav.ally') }}</a></div>
+  </div>
+</section>
+{{ actions('white') }}
+{% endblock %}
